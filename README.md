@@ -31,7 +31,7 @@ It Recognizes the handwritten digits, Which can be useful in automating tasks wh
 
         The model.fit() function of Keras will start the training of the model. It takes the training data, validation data, epochs, and batch size.
 
-        It takes some time to train the model. After training, we save the weights and model definition in the ‘mnist.h5’ file.
+        It takes some time to train the model. After training, we save the weights and model definition in the ‘Handwritten-digit-mnist-model.h5’ file.
         
 
 5. Evaluate the model
