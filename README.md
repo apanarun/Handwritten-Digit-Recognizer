@@ -36,16 +36,7 @@ It Recognizes the handwritten digits, Which can be useful in automating tasks wh
 
 5. Evaluate the model
 
-        We have 10,000 images in our dataset which will be used to evaluate how good our model works. 
+        We have 10,000 images in our test dataset which will be used to evaluate how good our model works. 
         The testing data was not involved in the training of the data therefore, it is new data for our model. 
         The MNIST dataset is well balanced so we can get around 99% accuracy.
         
-        
-6. Create GUI to predict digits
-
-        Now for the GUI, we have created a new file in which we build an interactive window to draw digits on canvas and with a button, we can recognize the digit. 
-        The Tkinter library comes in the Python standard library. 
-        We have created a function predict_digit() that takes the image as input and then uses the trained model to predict the digit.
-
-        Then we create the App class which is responsible for building the GUI for our app.     
-        We create a canvas where we can draw by capturing the mouse event and with a button, we trigger the predict_digit() function and display the results.
